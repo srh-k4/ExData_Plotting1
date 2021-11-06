@@ -22,7 +22,7 @@ with(data, {
     xlab = "",
     ylab = "Energy sub metering", 
     type = "l"
-  )
+    )
   lines(data$dateTime, data$Sub_metering_2, col = "red")
   lines(data$dateTime, data$Sub_metering_3, col = "blue")
   legend("topright", 
