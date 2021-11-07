@@ -1,6 +1,6 @@
 library(dplyr)
 
-# read data
+# read data in
 df_p1 <- read.table(
   file = "household_power_consumption.txt",
   header = TRUE,
